@@ -1,12 +1,38 @@
+body {
+    background: url("https://image.freepik.com/free-vector/blue-cloudy-daylight-background-weather-design_33099-512.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+}
 
+.banner {
+    color: #FFD23F;
+    font-family: sans-serif;
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
 
 #city-input, #weather-output {
     max-width: 400px;
     margin: 0 auto;
 }
-  
-.banner {
+
+.btn {
+    background-color: rgb(21, 99, 245) ;
+    color: #fff;
+}
+
+.btn:hover {
     color: #FFD23F;
-    font-family: sans-serif;
+}
+
+h4 {
+    color: rgb(24, 5, 197);
+    font-weight: 500;
+}
+
+li {
+    font-weight: 500;
 }
